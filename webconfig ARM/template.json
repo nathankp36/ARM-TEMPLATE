@@ -4,6 +4,13 @@
     "parameters": {
       "webpages:Enabled": {
         "type": "string"
+        "metadata": {
+            "description": "The key value to be changed."
       }
   }
   } 
+  "variables": {
+    "properties": {
+        "webpages:Enabled": "[parameters('webpages:Enabled')]"
+    }
+}
