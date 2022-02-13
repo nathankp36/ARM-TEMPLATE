@@ -9,7 +9,6 @@
       }
   }
   } 
-  "variables": {
     "properties": {
         "webpages:Enabled": "[parameters('webpages:Enabled')]"
     }
